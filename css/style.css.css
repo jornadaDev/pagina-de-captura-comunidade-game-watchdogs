@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.containerdoformulario {
+  background-color: #fffb;
+  max-height: 100%;
+  max-width: 25%;
+  float: right;
+  color: black;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.containerdoformulario input,
+select {
+  display: block;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 8px;
+  border: none;
+  margin-bottom: 8px;
+}
+
+input:hover,
+select:hover {
+  background-color: black;
+  color: white;
+}
+
+input[type='submit'] {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+input[type='submit']:hover {
+  color: red;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+section {
+  background-image: url(../img/essa.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.fotodorodape {
+  max-height: 100px;
+  max-width: 150px;
+  margin-top: 20px;
+}
+
+.descriçao {
+  color: red;
+  display: inline-block;
+  max-width: 40%;
+  margin-left: 30%;
+  text-align: end;
+}
